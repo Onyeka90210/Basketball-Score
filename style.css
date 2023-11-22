@@ -13,6 +13,7 @@ header{
     border-style: none;
     background-color: rgb(43, 43, 43);
     color: white;
+    height: 2rem;
 }
 body{
     font-family: my font;
