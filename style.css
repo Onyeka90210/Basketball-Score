@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: my font;
+    src: url(./Assets/digital-7.ttf);
+}
+header{
+    font-size: 2rem;
+    text-align: center;
+    border-style: none;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+body{
+    font-family: my font;
+    background-color: green;
+}
+main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.home{
+    width: 10rem;
+    text-align: center;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+
+
+    
+}
+.guest{
+    width: 10rem;
+    text-align: center;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
+.score{
+    padding-top: 5px;
+    color: red;
+    background-color: black;
+    
+    text-align: center;
+    font-size: 4rem;
+    width: 6rem;
+    height: 4.7rem;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+.btn>button{
+    font-family: my font;
+    color: white;
+    background: none;
+    border-color: white;
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.btn{   
+     text-align: center;
+}
+.home>h2{
+    color: white;
+    font-size: 2rem;
+}
+.guest>h2{
+    font-size: 2rem;
+    color: white;
+}
+.NG{
+    font-family: my font;
+    height: 2.5rem;
+    width: 6rem;
+    background-color: rgb(57, 229, 57);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+@media(min-width: 768px){
+    header>h2{
+        align-items: center;
+    }
+    header{
+        padding-top: 15px;
+        height: 5rem;
+    }
+    .home>h2{
+        font-size: 4rem;
+    }
+    .guest>h2{
+        font-size: 4rem;
+    }
+    .score{
+        padding-top: 10px;
+        font-size: 8rem;
+        width: 12rem;
+        height: 9.4rem;
+        margin-top: 35px;
+
+    }
+    .btn>button{
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+    
+    }
+    .btn{
+        margin: auto;
+        text-align: center;
+    }
+    .home{
+        width: 20rem;
+        height: 20rem;
+    }
+    .guest{
+        width: 20rem;
+        height: 20rem;
+    }
+    .NG{
+        height: 5rem;
+        width: 12rem;
+        font-size: 40px;
+    
+    }
+    
+}
